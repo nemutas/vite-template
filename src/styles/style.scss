@@ -12,6 +12,8 @@ body {
 }
 
 .text {
-	color: #fefefe;
-	font-size: 5rem;
+	width: 50%;
+	aspect-ratio: 445 / 60;
+	background: linear-gradient(90deg, rgba(65, 209, 255, 1) 0%, rgba(255, 201, 33, 1) 50%, rgba(189, 52, 254, 1) 100%);
+	mask: url('/resources/text.svg') 50% 50% / contain no-repeat;
 }
